@@ -19,7 +19,7 @@
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">CLASSES</a></li>
-                        <li><a href="#">SCHEDUALES</a></li>
+                        <li><a href="#">SCHEDULES </a></li>
                         <li><a href="#">CONTACT</a></li>
                         <li><a href="#" class="btn">SIGN UP</a></li>
                     </ul>
@@ -30,7 +30,22 @@
                 </div>
             </div>
         </header>
-
+        <script>
+            const hamburger = document.querySelector('.hamburger');
+            const menu = document.querySelector(".menu");
+            const icons = document.querySelectorAll("i");
+    
+    
+            hamburger.addEventListener("click", function () {
+            const isVisible = menu.getAttribute('data-visible') === "true";
+    
+            menu.setAttribute('data-visible', String(!isVisible));
+            icons[0].setAttribute('data-visible', String(isVisible));
+            icons[1].setAttribute('data-visible', String(!isVisible));
+            });
+    
+    
+        </script>
 
 
 
