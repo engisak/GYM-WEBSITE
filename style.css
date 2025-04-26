@@ -69,6 +69,46 @@ color: #232d39;
     color: #232d39;
 }
 
+/* hero section style  */
+
+.hero{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background: url("https://unsplash.com/photos/person-about-to-lift-the-barbel-WvDYdXDzkhs");
+    background-color: #8b6d68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-info h3{
+    margin-top: 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+.hero-info h2{
+    margin: 1.5625rem 0;
+    font-size: 5.25rem ;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.hero-info button{
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 20px;
+    background-color: #ed563b;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all .3s;
+    border: none;
+}
 
 /* laptop screens  */
 @media(max-width:1024px){
