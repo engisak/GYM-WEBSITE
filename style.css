@@ -97,7 +97,7 @@ color: #232d39;
     color: #fff;
     letter-spacing: 1px;
 }
-.hero-info button{
+.btn-design{
     display: inline-block;
     font-size: 15px;
     padding: 12px 20px;
@@ -116,8 +116,7 @@ color: #232d39;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    padding: 1.25rem 0;
+    padding-top: 7.5rem;
     gap: 1.25rem;
 }
 
@@ -140,8 +139,8 @@ color: #232d39;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3.5rem;
-    margin-top: 1rem;
     padding: 2rem 0;
+    margin-bottom: 7rem;
 }
 .about-contect .single-car{
     display: flex;
@@ -164,6 +163,34 @@ color: #232d39;
     line-height: 1.5625rem;
     color: #7a7a7a;
 }
+
+.call-to-action{
+    width: 100%;
+    text-align: center;
+    padding: 7.5rem 0;
+    background: url("https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg") center / cover no-repeat;
+}
+
+.call-to-action h2{
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.call-to-action span{
+    color: #ed563b;
+}
+
+.call-to-action p{
+    font-size: 1rem;
+    color: #fff;
+    margin: 15px 0px 25px 0px;
+    padding: 0 2rem;
+}
+
+
+
 
 /* laptop screens  */
 @media(max-width:1024px){
