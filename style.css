@@ -110,6 +110,61 @@ color: #232d39;
     border: none;
 }
 
+/* About section style  */
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1.25rem 0;
+    gap: 1.25rem;
+}
+
+.about-info h2{
+    font-size: 28px;
+    font-weight: 800;
+    color: #232d39;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.about-info p{
+    font-size: 0.875rem;
+    line-height: 1.5625rem;
+    color: #7a7a7a;
+    text-align: center;
+}
+
+.about-contect{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.5rem;
+    margin-top: 1rem;
+    padding: 2rem 0;
+}
+.about-contect .single-car{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.about-contect .single-car img{
+    margin-right: 1.25rem;
+}
+.about-contect .single-car .car-content h2{
+    margin-bottom: 0.4375rem;
+    letter-spacing: 0.25px;
+    color: #232d39;
+    font-size: 1.1875rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.single-car .car-content p{
+    font-size: 0.875rem;
+    line-height: 1.5625rem;
+    color: #7a7a7a;
+}
+
 /* laptop screens  */
 @media(max-width:1024px){
     .menu ul li{
@@ -162,6 +217,14 @@ color: #232d39;
         color: #fff;
     }
 
+    .about-contect{
+        grid-template-columns: 1fr;
+    }
+    .single-car img{
+        width: 100px;
+        height: 100px;
+    }
+
 }
 
 
@@ -169,5 +232,9 @@ color: #232d39;
 @media(max-width:480px){
     .logo h2{
         font-size: 1.5rem;
+    }
+    .hero-info h2{
+        margin: 1.5625rem 0;
+        font-size: 3.25rem ;
     }
 }
