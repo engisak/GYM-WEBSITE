@@ -272,7 +272,80 @@ color: #232d39;
     margin-bottom: 28px;
 }
 
+/* Schedule section style  */
 
+.Schedule{
+    width: 100%;
+    padding: 150px 0;
+    background:url("https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg");
+}
+.Schedule-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    text-align: center;
+}
+.Schedule-info h2{
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Schedule-info span{
+    color: #ed563b;
+}
+
+.Schedule-info p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.Schedule-info .days{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.Schedule-info .days .active{
+    color: #ed563b;
+}
+
+.Schedule-info .days ul {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Schedule-info .days ul li:after {
+    content: "/";
+    margin-left: 1rem;
+    color: #fff;
+}
+.Schedule-info .days ul li:last-child::after {
+    content: "";
+}
+
+table , td{
+    border: 1px solid;
+    height: 100px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
 /* laptop screens  */
 @media(max-width:1024px){
