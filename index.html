@@ -311,22 +311,28 @@
                 <p>Copyright &copy; 2025 Training Studio - Designed by <a href="https://gym-website-engisak.vercel.app/">engisak</a></p>
              </footer>
         </section>
-        <!-- javaScript  -->
+
+
+        <!-- JavaScript -->
         <script>
             const hamburger = document.querySelector('.hamburger');
             const menu = document.querySelector(".menu");
             const icons = document.querySelectorAll("i");
-    
-    
-            hamburger.addEventListener("click", function () {
-            const isVisible = menu.getAttribute('data-visible') === "true";
-    
-            menu.setAttribute('data-visible', String(!isVisible));
-            icons[0].setAttribute('data-visible', String(isVisible));
-            icons[1].setAttribute('data-visible', String(!isVisible));
+
+            hamburger.addEventListener("click", function (event) {
+                const isVisible = menu.getAttribute('data-visible');
+                if (isVisible == "true") {
+                    // qari hiding
+                    menu.setAttribute('data-visible', "false");
+                    icons[0].setAttribute('data-visible', "true");
+                    icons[1].setAttribute('data-visible', "false");
+                } else if (isVisible == "false") {
+                    // soo bandhig showing
+                    menu.setAttribute('data-visible', "true");
+                    icons[0].setAttribute('data-visible', "false");
+                    icons[1].setAttribute('data-visible', "true");
+                }
             });
-    
-    
         </script>
 </body>
 </html>

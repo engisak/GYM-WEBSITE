@@ -55,7 +55,7 @@ color: #232d39;
     font-size: 13px;
     font-weight: 500;
     color: #232d39;
-    line-height: 40px;
+    line-height: 2.5rem;
     letter-spacing: 1px;
     transition: 0.3s;
 }
@@ -64,7 +64,7 @@ color: #232d39;
 }
 .menu ul li .btn{
     background-color: #ed563b;
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
     color: #fff;
 }
 
@@ -84,7 +84,7 @@ color: #232d39;
 }
 .hero-info h3{
     margin-top: 0px;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-transform: uppercase;
     font-weight: 800;
     color: #fff;
@@ -100,7 +100,7 @@ color: #232d39;
 }
 .btn-design{
     display: inline-block;
-    font-size: 15px;
+    font-size: 0.9375rem;
     padding: 12px 20px;
     background-color: #ed563b;
     color: #fff;
@@ -110,6 +110,9 @@ color: #232d39;
     transition: all .3s;
     border: none;
     cursor: pointer;
+}
+.btn-design:hover{
+    background-color: #f77962;
 }
 /* About section style  */
 
@@ -122,7 +125,7 @@ color: #232d39;
 }
 
 .about-info h2{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 800;
     color: #232d39;
     text-transform: uppercase;
@@ -203,7 +206,7 @@ color: #232d39;
 }
 
 .Our-Classes-info h2{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 800;
     color: #232d39;
     text-transform: uppercase;
@@ -243,7 +246,7 @@ color: #232d39;
     background-color: #fff;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    font-size: 19px;
+    font-size: 1.1875rem;
     color: #232d39;
     letter-spacing: 0.5px;
     font-weight: 600;
@@ -264,7 +267,7 @@ color: #232d39;
     width: 100%;
 }
 .left h2{
-    font-size: 23px;
+    font-size: 1.4375rem;
     font-weight: 700;
     color: #232d39;
     letter-spacing: 0.5px;
@@ -272,16 +275,16 @@ color: #232d39;
 
 }
 .left p{
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #7a7a7a;
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
 }
 
 /* Schedule section style  */
 
 .Schedule{
     width: 100%;
-    padding: 150px 0;
+    padding: 9.375rem 0;
     background:url("https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg");
 }
 .Schedule-info{
@@ -292,7 +295,7 @@ color: #232d39;
     text-align: center;
 }
 .Schedule-info h2{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 800;
     color: #fff;
     text-transform: uppercase;
@@ -306,8 +309,8 @@ color: #232d39;
 }
 
 .Schedule-info p{
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 0.875rem;
+    line-height: 1.5625rem;
     color: #fff;
 }
 
@@ -341,7 +344,7 @@ table , td{
     border: 1px solid;
     height: 100px;
     color: #fff;
-    font-size: 13px;
+    font-size: 0.8125rem;
     text-transform: capitalize;
     font-weight: 500;
     letter-spacing: 0.25px;
@@ -351,8 +354,6 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
-
-
 
 /* ExpertTraining-info  */
 .ExpertTraining-info{
@@ -389,20 +390,20 @@ table {
     font-weight: 500;
     line-height: 1rem;
     color: #ed563b;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-top: 1.5625rem;
+    margin-bottom: 0.625rem;
     text-transform: capitalize;
 }
 .single-coach h2{
-    font-size: 19px;
+    font-size: 1.1875rem;
     font-weight: 600;
     color: #232d39;
     letter-spacing: 0.5px;
-    margin-bottom: 18px;
+    margin-bottom: 1.125rem;
 }
 .single-coach p{
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 0.875rem;
+    line-height: 1.6525rem;
     color: #7a7a7a;
     margin-bottom: 1rem;
 }
@@ -438,16 +439,16 @@ form{
 }
 form input{
     color: #7a7a7a;
-    font-size: 13px;
+    font-size: 0.8125rem;
     border: 1px solid #ddd;
     background-color: #fff;
     width: 100%;
     height: 40px;
     outline: none;
-    line-height: 40px;
+    line-height: 2.5rem;
     padding: 0 10px;
     appearance: none;
-    margin-bottom: 30px;
+    margin-bottom: 1.975rem;
 }
 form .flex-input{
     display: flex;
@@ -456,7 +457,7 @@ form .flex-input{
 form textarea{
     width: 100%;
     height: 140px;
-    padding: 10px;
+    padding: 0.625rem;
     border: 1px solid #ddd;
     outline: none;
     margin-bottom: 1rem;
@@ -480,9 +481,9 @@ footer{
 }
 footer p{
     color: #232d39;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 1.5625rem;
     text-transform: capitalize;
     text-align: center;
 }
@@ -517,7 +518,7 @@ footer a{
         background-color: #ed563b;
     }
     .menu ul li a{
-        font-size: 16px;
+        font-size: 1rem;
         background-color: #ddd;
         display: block;
         text-align: center;
