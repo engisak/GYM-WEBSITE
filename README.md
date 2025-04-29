@@ -33,15 +33,3 @@ To run the project locally:
 git clone https://github.com/engisak/gym-website.git
 cd gym-website
 # Open index.html in your browser
-
-
-🙋‍♂️ Author
-
-Name: Eng Isak
-
-GitHub: @engisak
-
-Email: mrisak192@gmail.com
-
-🤝 Acknowledgements
-Thanks to the Dugsiiye Mentorship Program for the opportunity and guidance.
